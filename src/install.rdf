@@ -3,22 +3,24 @@
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
-                   em:id="titlebar@sidthemonkey.com"
-                   em:name="Customize Titlebar"
-                   em:version="0.5"
-                   em:creator="Richard Berry"
+                   em:id="customize-titlebar-v2@solc.me"
+                   em:name="customize_titlebar_v2"
+                   em:version="0.6"
+                   em:creator="Hrvoje Solc"
                    em:description="Customize the browser titlebar"
                    em:homepageURL="http://sidthemonkey.com/"
                    em:iconURL="chrome://titlebar/titlebar-logo.png"
                    em:optionsURL="chrome://titlebar/content/options.xul">
+    <em:contributor>Richard Berry titlebar@sidthemonkey.com</em:contributor>
     <em:contributor>Ivy Durante</em:contributor>
     <em:contributor>Chris Neuner http://unrealstuff.bplaced.de</em:contributor>
     <em:contributor>Leszek(teo)Zyczkowski</em:contributor>
     <em:contributor>el_libre www.catmidia.cat</em:contributor>
+    <em:contributor>hrvoje.solc at gmail.com</em:contributor>
     <em:targetApplication RDF:resource="rdf:#$.2hJQ1"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$.2hJQ1"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="3.0"
-                   em:maxVersion="3.6.*" />
+                   em:maxVersion="8.*" />
 </RDF:RDF>
